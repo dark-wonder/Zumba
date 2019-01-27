@@ -1,5 +1,4 @@
 # Zumba
-A web app to manage photos.
 This app is built using Express.js and Material Design Lite.
 
 Installation:  
