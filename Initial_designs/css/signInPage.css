@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #191414;
+}
+
+body {
+  font-family: 'Poiret One',cursive;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*------------container-------------*/
+.signInPage-logo{
+	width: 100px;
+	margin-bottom: 2.5rem;
+}
+.form-group{
+	margin-bottom: 1.2rem;
+}
+h5{
+	color: #e49023;
+	size: 2px;
+}
+input{
+	padding-left: 15px;
+	width: 70%;
+	border-color: #e49023;
+	background-color: transparent;
+	color: #e49023;
+	font-size: 20px;
+	height: 37px;
+	border-radius: 10px;
+}
+.btn {
+  font-family: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;  
+  background-color: #e49023;
+  border: solid 1px #707070;
+  border-radius: 15px;
+  height: 45px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -0.00933333em;
+  
+}
+
+/*---------------Responsive Container-------------*/
+
+@media only screen and (min-width: 960px){
+	input{
+		width: 50%;
+	}
+}
+@media only screen and (max-height:740px){
+  .container-fluid{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: auto;
+    height: 100%;
+  }
+}
